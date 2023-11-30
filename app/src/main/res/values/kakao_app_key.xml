@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kakao KEY설정[AndroidManifest.xml에도 설정]-->
+    <!-- Kakao-init에서 사용 -->
+    <string name="kakao_app_key">86852939e5020a6df39ca97373078418</string>
+    <!-- AndroidManifest.xml에서 사용 -->
+    <string name="kakao_native_key">kakao86852939e5020a6df39ca97373078418</string>
+</resources>

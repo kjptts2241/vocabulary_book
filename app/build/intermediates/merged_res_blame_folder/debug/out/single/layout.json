@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.vocabulary_book.app-mergeDebugResources-32:/layout/voka_main.xml",
+        "source": "com.example.vocabulary_book.app-main-35:/layout/voka_main.xml"
+    },
+    {
+        "merged": "com.example.vocabulary_book.app-mergeDebugResources-32:/layout/voka_around.xml",
+        "source": "com.example.vocabulary_book.app-main-35:/layout/voka_around.xml"
+    },
+    {
+        "merged": "com.example.vocabulary_book.app-mergeDebugResources-32:/layout/dango_add.xml",
+        "source": "com.example.vocabulary_book.app-main-35:/layout/dango_add.xml"
+    },
+    {
+        "merged": "com.example.vocabulary_book.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.vocabulary_book.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.vocabulary_book.app-mergeDebugResources-32:/layout/voka_file_add.xml",
+        "source": "com.example.vocabulary_book.app-main-35:/layout/voka_file_add.xml"
+    }
+]

@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.vocabulary_book"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- 인터넷 사용 권한 설정 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <queries>
+14-->[com.kakao.sdk:v2-navi:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\fc509f26c09da263cdd5185085990683\transformed\v2-navi-2.16.0\AndroidManifest.xml:9:5-12:15
+15        <package android:name="com.locnall.KimGiSa" />
+15-->[com.kakao.sdk:v2-navi:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\fc509f26c09da263cdd5185085990683\transformed\v2-navi-2.16.0\AndroidManifest.xml:10:9-55
+15-->[com.kakao.sdk:v2-navi:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\fc509f26c09da263cdd5185085990683\transformed\v2-navi-2.16.0\AndroidManifest.xml:10:18-52
+16        <package android:name="com.lguplus.navi" />
+16-->[com.kakao.sdk:v2-navi:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\fc509f26c09da263cdd5185085990683\transformed\v2-navi-2.16.0\AndroidManifest.xml:11:9-52
+16-->[com.kakao.sdk:v2-navi:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\fc509f26c09da263cdd5185085990683\transformed\v2-navi-2.16.0\AndroidManifest.xml:11:18-49
+17        <package android:name="com.kakao.talk" />
+17-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:10:9-50
+17-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:10:18-47
+18        <package android:name="com.kakao.talk.alpha" />
+18-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:11:9-56
+18-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:11:18-53
+19        <package android:name="com.kakao.talk.sandbox" />
+19-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:12:9-58
+19-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:12:18-55
+20        <package android:name="com.kakao.onetalk" />
+20-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:13:9-53
+20-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:13:18-50
+21
+22        <intent>
+22-->[com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:15:9-21:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:48:17-69
+23-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:48:25-66
+24
+25            <category android:name="android.intent.category.BROWSABLE" />
+25-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:50:17-78
+25-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:50:27-75
+26
+27            <data android:scheme="https" />
+27-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:51:17-53:65
+27-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:53:21-62
+28        </intent>
+29    </queries>
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.vocabulary_book.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.vocabulary_book.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:8:5-57:19
+38        android:name="com.example.vocabulary_book.CapstoneApplication"
+38-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:9:9-44
+39        android:allowBackup="true"
+39-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:10:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:11:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:12:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:13:9-43
+46        android:label="@string/app_name"
+46-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:14:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:15:9-54
+48        android:supportsRtl="true"
+48-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:16:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.vocabulary_book"
+50-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:17:9-53
+51        android:usesCleartextTraffic="true" >
+51-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:10:18-53
+52        <activity
+52-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:20:9-22:39
+53            android:name="com.example.vocabulary_book.DangoAddActivity"
+53-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-45
+54            android:exported="true" />
+54-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:22:13-36
+55        <activity
+55-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:23:9-25:39
+56            android:name="com.example.vocabulary_book.VokaAroundActivity"
+56-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:24:13-47
+57            android:exported="true" />
+57-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:25:13-36
+58        <activity
+58-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:26:9-28:39
+59            android:name="com.example.vocabulary_book.VokaFileAddActivity"
+59-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:27:13-48
+60            android:exported="true" />
+60-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:28:13-36
+61        <activity
+61-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:29:9-31:39
+62            android:name="com.example.vocabulary_book.VokaMainActivity"
+62-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:30:13-45
+63            android:exported="true" />
+63-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:31:13-36
+64        <activity
+64-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:32:9-40:20
+65            android:name="com.example.vocabulary_book.MainActivity"
+65-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:33:13-41
+66            android:exported="true" >
+66-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:34:13-36
+67            <intent-filter>
+67-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:35:13-39:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:36:17-69
+68-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:36:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:38:17-77
+70-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:38:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- Kakao 로그인 -->
+75        <activity
+75-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:43:9-55:20
+76            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+76-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:44:13-70
+77            android:exported="true"
+77-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:45:13-36
+78            android:launchMode="singleTask"
+78-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:46:13-44
+79            android:theme="@style/TransparentCompat" >
+79-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:19:13-53
+80            <intent-filter>
+80-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:47:13-54:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:48:17-69
+81-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:48:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:49:17-76
+83-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:49:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:50:17-78
+84-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:50:27-75
+85
+86                <data
+86-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:51:17-53:65
+87                    android:host="oauth"
+87-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:52:21-41
+88                    android:scheme="@string/kakao_native_key" />
+88-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:53:21-62
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:11:9-14:59
+92            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
+92-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:12:13-72
+93            android:theme="@style/DayNightFull"
+93-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:13:13-48
+94            android:windowSoftInputMode="adjustNothing" />
+94-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:14:13-56
+95        <activity
+95-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:15:9-17:52
+96            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
+96-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:16:13-73
+97            android:theme="@style/DayNightPopup" />
+97-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:17:13-49
+98        <activity
+98-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:10:9-15:56
+99            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+99-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:11:13-67
+100            android:configChanges="orientation|screenSize|keyboardHidden"
+100-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:12:13-74
+101            android:exported="false"
+101-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:13:13-37
+102            android:launchMode="singleTask"
+102-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:14:13-44
+103            android:theme="@style/TransparentCompat" />
+103-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:15:13-53
+104
+105        <provider
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+107            android:authorities="com.example.vocabulary_book.androidx-startup"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+108            android:exported="false" >
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+109            <meta-data
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+111                android:value="androidx.startup" />
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+114                android:value="androidx.startup" />
+114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+115        </provider>
+116    </application>
+117
+118</manifest>
