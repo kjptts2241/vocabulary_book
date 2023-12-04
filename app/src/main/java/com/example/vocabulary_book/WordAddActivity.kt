@@ -3,18 +3,18 @@ package com.example.vocabulary_book
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.vocabulary_book.databinding.DangoAddBinding
+import com.example.vocabulary_book.databinding.WordAddBinding
 
-class DangoAddActivity:AppCompatActivity() {
+class WordAddActivity:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding = DangoAddBinding.inflate(layoutInflater)
+        val binding = WordAddBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // 단어 추가
-        binding.dangoAddButton.setOnClickListener() {
+        binding.wordAddButton.setOnClickListener() {
             val intent = intent
 
             setResult(RESULT_OK, intent)
@@ -22,7 +22,7 @@ class DangoAddActivity:AppCompatActivity() {
         }
 
         // 단어 추가 취소
-        binding.dangoAddCancelButton.setOnClickListener() {
+        binding.wordAddCancelButton.setOnClickListener() {
             val intent: Intent = Intent(this, VokaAroundActivity::class.java)
             startActivity(intent)
         }

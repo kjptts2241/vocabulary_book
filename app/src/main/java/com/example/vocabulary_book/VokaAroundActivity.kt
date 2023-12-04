@@ -9,21 +9,21 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.vocabulary_book.databinding.VokaAroundBinding
+import com.example.vocabulary_book.databinding.VokanoteAroundBinding
 
 class VokaAroundActivity:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding = VokaAroundBinding.inflate(layoutInflater)
+        val binding = VokanoteAroundBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val activityLauncher = openActivityResultLauncher()
 
         // 단어 추가 이동
-        binding.dangoAddMoveButton.setOnClickListener() {
-            val intent: Intent = Intent(this, DangoAddActivity::class.java)
+        binding.wordAddMoveButton.setOnClickListener() {
+            val intent: Intent = Intent(this, WordAddActivity::class.java)
             activityLauncher.launch(intent)
         }
     }

@@ -18,13 +18,13 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".DangoAddActivity"
+            android:name=".WordAddActivity"
             android:exported="true" />
         <activity
             android:name=".VokaAroundActivity"
             android:exported="true" />
         <activity
-            android:name=".VokaFileAddActivity"
+            android:name=".VokanoteAddActivity"
             android:exported="true" />
         <activity
             android:name=".VokaMainActivity"

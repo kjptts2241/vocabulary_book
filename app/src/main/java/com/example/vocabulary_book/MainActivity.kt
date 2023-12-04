@@ -18,14 +18,17 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        /** HashKey확인 */
+        /** kakao HashKey확인 */
         val keyHash = Utility.getKeyHash(this)
         Log.e("log", "keyHash: ${keyHash}")
 
         // 로그인 정보 확인
         UserApiClient.instance.accessTokenInfo() { tokenInfo, error ->
+            // 로그인 기록이 없을 경우
             if (error != null) {
                 //TODO: 로그인 기록 없음
+
+            // 로그인 기록이 있다면 자동 로그인
             } else if (tokenInfo != null) {
                 UserApiClient.instance.me { user, error ->
                     Toast.makeText(this, "${user?.kakaoAccount?.profile?.nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
@@ -37,14 +40,25 @@ class MainActivity : AppCompatActivity() {
         }
 
         val callback: (OAuthToken?, Throwable?) -> Unit = { token, error ->
+            // 로그인 실패
             if (error != null) {
-                // 로그인 실패
                 Toast.makeText(this, "로그인에 실패했어요", Toast.LENGTH_SHORT).show()
-            }
-            else if (token != null){
-                // 로그인 성공
+
+            // 로그인 성공
+            } else if (token != null){
                 UserApiClient.instance.me { user, error ->
                     Toast.makeText(this, "${user?.kakaoAccount?.profile?.nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
+
+                    // 유저 DB 확인
+                    val userEmailExists = AppDatabase.getInstance(this)?.userDao()?.isUserEmailExists(user?.kakaoAccount?.email)
+                    // 유저가 DB에 확인되지 않는 경우
+                    if (userEmailExists == 0) {
+
+
+                    // 유저가 DB에 확인되는 경우
+                    } else {
+                        //TODO: 유저가 DB에 저장되있음
+                    }
                 }
                 val intent: Intent = Intent(this, VokaMainActivity::class.java)
                 startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))

@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/dango_add_move_button"
+        android:id="@+id/word_add_move_button"
         android:layout_width="104dp"
         android:layout_height="39dp"
         android:layout_marginStart="28dp"
@@ -34,10 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_num_text">
+        app:layout_constraintTop_toBottomOf="@+id/word_num_text">
 
         <TextView
-            android:id="@+id/dango_language_text"
+            android:id="@+id/word_language_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -51,7 +51,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/dango_study_text"
+            android:id="@+id/word_study_text"
             android:layout_width="196dp"
             android:layout_height="75dp"
             android:layout_marginTop="80dp"
@@ -64,7 +64,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/dango_pronunciation_text"
+            android:id="@+id/word_pronunciation_text"
             android:layout_width="151dp"
             android:layout_height="32dp"
             android:layout_marginTop="10dp"
@@ -75,10 +75,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dango_study_text" />
+            app:layout_constraintTop_toBottomOf="@+id/word_study_text" />
 
         <TextView
-            android:id="@+id/dango_korea_text"
+            android:id="@+id/word_korea_text"
             android:layout_width="152dp"
             android:layout_height="51dp"
             android:layout_marginTop="12dp"
@@ -88,10 +88,10 @@
             android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dango_pronunciation_text" />
+            app:layout_constraintTop_toBottomOf="@+id/word_pronunciation_text" />
 
         <TextView
-            android:id="@+id/dango_explanation_text"
+            android:id="@+id/word_explanation_text"
             android:layout_width="214dp"
             android:layout_height="68dp"
             android:layout_marginTop="76dp"
@@ -101,7 +101,7 @@
             android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dango_korea_text" />
+            app:layout_constraintTop_toBottomOf="@+id/word_korea_text" />
 
         <ImageView
             android:id="@+id/voka_delete_button"
@@ -116,7 +116,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/dango_know_button"
+        android:id="@+id/word_know_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -126,7 +126,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
     <Button
-        android:id="@+id/dango_next_button"
+        android:id="@+id/word_next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -136,7 +136,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
     <TextView
-        android:id="@+id/dango_num_text"
+        android:id="@+id/word_num_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="192dp"

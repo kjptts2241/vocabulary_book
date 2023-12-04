@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/dango_study"
+        android:id="@+id/word_study"
         android:layout_width="304dp"
         android:layout_height="69dp"
         android:layout_marginStart="52dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/dango_korea"
+        android:id="@+id/word_korea"
         android:layout_width="304dp"
         android:layout_height="69dp"
         android:layout_marginStart="52dp"
@@ -31,10 +31,10 @@
         android:textSize="28sp"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_study" />
+        app:layout_constraintTop_toBottomOf="@+id/word_study" />
 
     <EditText
-        android:id="@+id/dango_pronunciation"
+        android:id="@+id/word_pronunciation"
         android:layout_width="304dp"
         android:layout_height="69dp"
         android:layout_marginStart="52dp"
@@ -45,10 +45,10 @@
         android:textSize="28sp"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_korea" />
+        app:layout_constraintTop_toBottomOf="@+id/word_korea" />
 
     <EditText
-        android:id="@+id/dango_explanation"
+        android:id="@+id/word_explanation"
         android:layout_width="304dp"
         android:layout_height="69dp"
         android:layout_marginStart="52dp"
@@ -59,26 +59,26 @@
         android:textColor="#808080"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_pronunciation" />
+        app:layout_constraintTop_toBottomOf="@+id/word_pronunciation" />
 
     <Button
-        android:id="@+id/dango_add_button"
+        android:id="@+id/word_add_button"
         android:layout_width="122dp"
         android:layout_height="65dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="66dp"
         android:text="단어 등록"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_explanation" />
+        app:layout_constraintTop_toBottomOf="@+id/word_explanation" />
 
     <Button
-        android:id="@+id/dango_add_cancel_button"
+        android:id="@+id/word_add_cancel_button"
         android:layout_width="122dp"
         android:layout_height="65dp"
         android:layout_marginTop="66dp"
         android:layout_marginEnd="56dp"
         android:text="취소"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dango_explanation" />
+        app:layout_constraintTop_toBottomOf="@+id/word_explanation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

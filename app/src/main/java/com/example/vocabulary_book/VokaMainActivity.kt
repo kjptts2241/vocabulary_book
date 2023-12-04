@@ -27,10 +27,12 @@ class VokaMainActivity : AppCompatActivity() {
         binding.kakaoLogoutButton.setOnClickListener() {
 
             UserApiClient.instance.logout { error ->
+                // 로그아웃 실패
                 if (error != null) {
                     Toast.makeText(this, "로그아웃에 실패했어요 $error", Toast.LENGTH_SHORT).show()
-                }
-                else {
+
+                // 로그아웃 성공
+                } else {
                     Toast.makeText(this, "안녕히가세요!", Toast.LENGTH_SHORT).show()
                     val intent: Intent = Intent(this, MainActivity::class.java)
                     startActivity(intent.addFlags(FLAG_ACTIVITY_CLEAR_TOP))
@@ -40,13 +42,13 @@ class VokaMainActivity : AppCompatActivity() {
         }
 
         // 단어장 추가 이동
-        binding.vokaAddMoveButton.setOnClickListener() {
-            val intent: Intent = Intent(this, VokaFileAddActivity::class.java)
+        binding.vokanoteAddMoveButton.setOnClickListener() {
+            val intent: Intent = Intent(this, VokanoteAddActivity::class.java)
             activityLauncher.launch(intent)
         }
 
         // 단어장 이동
-        binding.vokaFile1.setOnClickListener() {
+        binding.vokanote1.setOnClickListener() {
             val intent: Intent = Intent(this, VokaAroundActivity::class.java)
             startActivity(intent)
         }

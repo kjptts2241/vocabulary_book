@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/voka_language_text"
+        android:id="@+id/vokanote_language_text"
         android:layout_width="120dp"
         android:layout_height="39dp"
         android:layout_marginStart="56dp"
@@ -24,7 +24,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/voka_language_text">
+        app:layout_constraintTop_toBottomOf="@+id/vokanote_language_text">
 
         <RadioButton
             android:id="@+id/radio_button"
@@ -47,7 +47,7 @@
     </RadioGroup>
 
     <EditText
-        android:id="@+id/voka_title"
+        android:id="@+id/vokanote_title"
         android:layout_width="292dp"
         android:layout_height="58dp"
         android:layout_marginStart="56dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
-        android:id="@+id/voka_add_button"
+        android:id="@+id/vokanote_add_button"
         android:layout_width="122dp"
         android:layout_height="65dp"
         android:layout_marginStart="56dp"
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/voka_add_cancel_button"
+        android:id="@+id/vokanote_add_cancel_button"
         android:layout_width="122dp"
         android:layout_height="65dp"
         android:layout_marginEnd="56dp"

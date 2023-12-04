@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/voka_add_move_button"
+            android:id="@+id/vokanote_add_move_button"
             android:layout_width="140dp"
             android:layout_height="43dp"
             android:layout_marginEnd="16dp"
@@ -42,7 +42,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/voka_file1"
+        android:id="@+id/vokanote1"
         android:layout_width="351dp"
         android:layout_height="111dp"
         android:layout_marginTop="60dp"
@@ -91,7 +91,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/voka_file2"
+        android:id="@+id/vokanote2"
         android:layout_width="351dp"
         android:layout_height="111dp"
         android:layout_marginTop="40dp"
@@ -100,7 +100,7 @@
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/voka_file1">
+        app:layout_constraintTop_toBottomOf="@+id/vokanote1">
 
         <ImageView
             android:id="@+id/imageView3"
