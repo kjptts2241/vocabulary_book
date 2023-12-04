@@ -10,8 +10,8 @@ import kotlinx.parcelize.Parcelize
 data class UserData(
 
     @PrimaryKey(autoGenerate = true) val id: Int = 0, // PrimaryKey
-    val userEmail : String,       // 유저 이메일
-    val name : String,            // 유저 닉네임
-    val profileImage : String,    // 유저 프로필
+    val email : String?,       // 유저 이메일
+    val nickname : String?,        // 유저 닉네임
+    val profileImageUrl : String?,    // 유저 프로필 URL
 
 ): Parcelable

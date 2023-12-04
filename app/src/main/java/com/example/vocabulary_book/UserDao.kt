@@ -12,11 +12,11 @@ interface UserDao {
     @Query("SELECT * from user ORDER BY id DESC")
     fun getAll() : List<UserData>
 
-    @Query("SELECT COUNT(*) from user WHERE userEmail = :userEmail")
-    fun isUserEmailExists(userEmail : String?) : Int
+    @Query("SELECT COUNT(*) from user WHERE email = :email")
+    fun isEmailExists(email : String?) : Int
 
     @Insert
-    fun insert(user : UserData)
+    fun insert(user : UserData?)
 
     @Delete
     fun delete(user : UserData)

@@ -31,7 +31,9 @@ class MainActivity : AppCompatActivity() {
             // 로그인 기록이 있다면 자동 로그인
             } else if (tokenInfo != null) {
                 UserApiClient.instance.me { user, error ->
-                    Toast.makeText(this, "${user?.kakaoAccount?.profile?.nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
+                    val nickname = user?.kakaoAccount?.profile?.nickname
+
+                    Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
                 }
                 val intent: Intent = Intent(this, VokaMainActivity::class.java)
                 startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
@@ -47,18 +49,24 @@ class MainActivity : AppCompatActivity() {
             // 로그인 성공
             } else if (token != null){
                 UserApiClient.instance.me { user, error ->
-                    Toast.makeText(this, "${user?.kakaoAccount?.profile?.nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
+                    val email = user?.kakaoAccount?.email
+                    val nickname = user?.kakaoAccount?.profile?.nickname
+                    val profileImageUrl = user?.kakaoAccount?.profile?.profileImageUrl
+
+                    Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
 
                     // 유저 DB 확인
-                    val userEmailExists = AppDatabase.getInstance(this)?.userDao()?.isUserEmailExists(user?.kakaoAccount?.email)
+                    val userEmailExists = AppDatabase.getInstance(this)?.userDao()?.isEmailExists(email)
                     // 유저가 DB에 확인되지 않는 경우
-                    if (userEmailExists == 0) {
-
-
-                    // 유저가 DB에 확인되는 경우
-                    } else {
-                        //TODO: 유저가 DB에 저장되있음
-                    }
+//                    if (userEmailExists == 0) {
+//                        // DB에 유저 저장
+//                        val userData = UserData(1, email = email, nickname = nickname, profileImageUrl = profileImageUrl)
+//                        AppDatabase.getInstance(this)?.userDao()?.insert(userData)
+//
+//                    // 유저가 DB에 확인되는 경우
+//                    } else {
+//                        //TODO: 유저가 DB에 저장되있음
+//                    }
                 }
                 val intent: Intent = Intent(this, VokaMainActivity::class.java)
                 startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
