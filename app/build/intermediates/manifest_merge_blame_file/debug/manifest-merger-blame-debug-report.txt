@@ -90,8 +90,8 @@
 51-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:10:18-53
 52        <activity
 52-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:20:9-22:39
-53            android:name="com.example.vocabulary_book.DangoAddActivity"
-53-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-45
+53            android:name="com.example.vocabulary_book.WordAddActivity"
+53-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-44
 54            android:exported="true" />
 54-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:22:13-36
 55        <activity
@@ -102,7 +102,7 @@
 57-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:25:13-36
 58        <activity
 58-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:26:9-28:39
-59            android:name="com.example.vocabulary_book.VokaFileAddActivity"
+59            android:name="com.example.vocabulary_book.VokanoteAddActivity"
 59-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:27:13-48
 60            android:exported="true" />
 60-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:28:13-36
@@ -210,6 +210,15 @@
 114                android:value="androidx.startup" />
 114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 115        </provider>
-116    </application>
-117
-118</manifest>
+116
+117        <service
+117-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+118            android:name="androidx.room.MultiInstanceInvalidationService"
+118-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+119            android:directBootAware="true"
+119-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+120            android:exported="false" />
+120-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+121    </application>
+122
+123</manifest>

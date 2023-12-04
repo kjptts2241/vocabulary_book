@@ -50,13 +50,13 @@
         android:theme="@style/Theme.vocabulary_book"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.vocabulary_book.DangoAddActivity"
+            android:name="com.example.vocabulary_book.WordAddActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vocabulary_book.VokaAroundActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.VokaFileAddActivity"
+            android:name="com.example.vocabulary_book.VokanoteAddActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vocabulary_book.VokaMainActivity"
@@ -113,6 +113,11 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -18,6 +18,7 @@ MERGED from [com.kakao.sdk:v2-network:2.16.0] C:\Users\kjptt\.gradle\caches\tran
 MERGED from [com.kakao.sdk:v2-template:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4af558ef348964ca3146832ca87cd8b5\transformed\v2-template-2.16.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\ad144d95d8c51de978fe0a829079966e\transformed\lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\0f10302d8d96160bb60c5694e7fb8fc8\transformed\room-ktx-2.4.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\kjptt\.gradle\caches\transforms-3\3c9b0bf32ac5a508711f5b6cd264dfe6\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kjptt\.gradle\caches\transforms-3\e64150522a85b3dc5137a03f84c1e31e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kjptt\.gradle\caches\transforms-3\e56fdac0f9b9861d3d7a0dedb97a301d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -43,11 +44,14 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\kjptt\.gradle\caches
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\kjptt\.gradle\caches\transforms-3\5d3475150a7487ab487946b2dc8e9279\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\e6a27d6181bf8b9fb438427e80ddb52b\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\34372a90291b96952fe14c9f8e5e7248\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\kjptt\.gradle\caches\transforms-3\3628bffb26e0472ecb9007e7a2714bfe\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\7efac803cd44aaa61289aee61ddfd1cd\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\c550ff2d945ec0859eed243237eaa66b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\970c4618c4493b2f6a9ea3ed52aacdd3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\71052ad08de463dde33a1277e9f688b0\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\3758bf2e0cafdd81560414f8657aabd0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\4fafe8b9971959350fd5a3b8be0711d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\36d7c9722319cdcdbadba71591cc02a8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -88,6 +92,8 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transfo
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\3758bf2e0cafdd81560414f8657aabd0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -120,19 +126,19 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kjptt\.gradle\cach
 		ADDED from [com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:10:18-53
 	android:name
 		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:9:9-44
-activity#com.example.vocabulary_book.DangoAddActivity
+activity#com.example.vocabulary_book.WordAddActivity
 ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:20:9-22:39
 	android:exported
 		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-44
 activity#com.example.vocabulary_book.VokaAroundActivity
 ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:23:9-25:39
 	android:exported
 		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
 		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:24:13-47
-activity#com.example.vocabulary_book.VokaFileAddActivity
+activity#com.example.vocabulary_book.VokanoteAddActivity
 ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:26:9-28:39
 	android:exported
 		ADDED from C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:28:13-36
@@ -224,6 +230,8 @@ MERGED from [com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\trans
 MERGED from [com.kakao.sdk:v2-common:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4090737948e698337e57c7d84b52b5fe\transformed\v2-common-2.16.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\ad144d95d8c51de978fe0a829079966e\transformed\lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\ad144d95d8c51de978fe0a829079966e\transformed\lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\0f10302d8d96160bb60c5694e7fb8fc8\transformed\room-ktx-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\0f10302d8d96160bb60c5694e7fb8fc8\transformed\room-ktx-2.4.3\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\kjptt\.gradle\caches\transforms-3\3c9b0bf32ac5a508711f5b6cd264dfe6\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\kjptt\.gradle\caches\transforms-3\3c9b0bf32ac5a508711f5b6cd264dfe6\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kjptt\.gradle\caches\transforms-3\e64150522a85b3dc5137a03f84c1e31e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -274,6 +282,8 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\e6a27d6181bf8b9fb438427e80ddb52b\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\e6a27d6181bf8b9fb438427e80ddb52b\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\34372a90291b96952fe14c9f8e5e7248\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\34372a90291b96952fe14c9f8e5e7248\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
@@ -284,6 +294,10 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\kjptt\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\7efac803cd44aaa61289aee61ddfd1cd\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\c550ff2d945ec0859eed243237eaa66b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kjptt\.gradle\caches\transforms-3\c550ff2d945ec0859eed243237eaa66b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\970c4618c4493b2f6a9ea3ed52aacdd3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\970c4618c4493b2f6a9ea3ed52aacdd3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\71052ad08de463dde33a1277e9f688b0\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\71052ad08de463dde33a1277e9f688b0\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\3758bf2e0cafdd81560414f8657aabd0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\3758bf2e0cafdd81560414f8657aabd0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kjptt\.gradle\caches\transforms-3\4fafe8b9971959350fd5a3b8be0711d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
@@ -406,6 +420,14 @@ uses-permission#com.example.vocabulary_book.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMIS
 ADDED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\kjptt\.gradle\caches\transforms-3\b5ba732faec324c1f421e5180141a7a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value

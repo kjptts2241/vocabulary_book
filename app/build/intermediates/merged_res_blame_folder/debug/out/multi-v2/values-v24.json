@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-31:/values-v24/values-v24.xml",
+            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-35:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kjptt\\.gradle\\caches\\transforms-3\\c1fb0fb464df787c9458f5aa9079531d\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",

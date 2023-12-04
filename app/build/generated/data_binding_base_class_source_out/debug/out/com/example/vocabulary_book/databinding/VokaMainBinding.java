@@ -46,20 +46,20 @@ public final class VokaMainBinding implements ViewBinding {
   public final TextView titleText2;
 
   @NonNull
-  public final Button vokaAddMoveButton;
+  public final ConstraintLayout vokanote1;
 
   @NonNull
-  public final ConstraintLayout vokaFile1;
+  public final ConstraintLayout vokanote2;
 
   @NonNull
-  public final ConstraintLayout vokaFile2;
+  public final Button vokanoteAddMoveButton;
 
   private VokaMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout, @NonNull ImageView imageView2,
       @NonNull ImageView imageView3, @NonNull Button kakaoLogoutButton,
       @NonNull TextView languageText, @NonNull TextView languageText2, @NonNull TextView titleText,
-      @NonNull TextView titleText2, @NonNull Button vokaAddMoveButton,
-      @NonNull ConstraintLayout vokaFile1, @NonNull ConstraintLayout vokaFile2) {
+      @NonNull TextView titleText2, @NonNull ConstraintLayout vokanote1,
+      @NonNull ConstraintLayout vokanote2, @NonNull Button vokanoteAddMoveButton) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
     this.imageView2 = imageView2;
@@ -69,9 +69,9 @@ public final class VokaMainBinding implements ViewBinding {
     this.languageText2 = languageText2;
     this.titleText = titleText;
     this.titleText2 = titleText2;
-    this.vokaAddMoveButton = vokaAddMoveButton;
-    this.vokaFile1 = vokaFile1;
-    this.vokaFile2 = vokaFile2;
+    this.vokanote1 = vokanote1;
+    this.vokanote2 = vokanote2;
+    this.vokanoteAddMoveButton = vokanoteAddMoveButton;
   }
 
   @Override
@@ -149,27 +149,27 @@ public final class VokaMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.voka_add_move_button;
-      Button vokaAddMoveButton = ViewBindings.findChildViewById(rootView, id);
-      if (vokaAddMoveButton == null) {
+      id = R.id.vokanote1;
+      ConstraintLayout vokanote1 = ViewBindings.findChildViewById(rootView, id);
+      if (vokanote1 == null) {
         break missingId;
       }
 
-      id = R.id.voka_file1;
-      ConstraintLayout vokaFile1 = ViewBindings.findChildViewById(rootView, id);
-      if (vokaFile1 == null) {
+      id = R.id.vokanote2;
+      ConstraintLayout vokanote2 = ViewBindings.findChildViewById(rootView, id);
+      if (vokanote2 == null) {
         break missingId;
       }
 
-      id = R.id.voka_file2;
-      ConstraintLayout vokaFile2 = ViewBindings.findChildViewById(rootView, id);
-      if (vokaFile2 == null) {
+      id = R.id.vokanote_add_move_button;
+      Button vokanoteAddMoveButton = ViewBindings.findChildViewById(rootView, id);
+      if (vokanoteAddMoveButton == null) {
         break missingId;
       }
 
       return new VokaMainBinding((ConstraintLayout) rootView, constraintLayout, imageView2,
           imageView3, kakaoLogoutButton, languageText, languageText2, titleText, titleText2,
-          vokaAddMoveButton, vokaFile1, vokaFile2);
+          vokanote1, vokanote2, vokanoteAddMoveButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
