@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-35:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-41:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kjptt\\.gradle\\caches\\transforms-3\\c1fb0fb464df787c9458f5aa9079531d\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",

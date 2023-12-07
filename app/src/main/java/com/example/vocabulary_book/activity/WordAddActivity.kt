@@ -1,4 +1,4 @@
-package com.example.vocabulary_book
+package com.example.vocabulary_book.activity
 
 import android.content.Intent
 import android.os.Bundle

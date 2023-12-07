@@ -90,32 +90,32 @@
 51-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:10:18-53
 52        <activity
 52-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:20:9-22:39
-53            android:name="com.example.vocabulary_book.WordAddActivity"
-53-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-44
+53            android:name="com.example.vocabulary_book.activity.WordAddActivity"
+53-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:21:13-53
 54            android:exported="true" />
 54-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:22:13-36
 55        <activity
 55-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:23:9-25:39
-56            android:name="com.example.vocabulary_book.VokaAroundActivity"
-56-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:24:13-47
+56            android:name="com.example.vocabulary_book.activity.VokaAroundActivity"
+56-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:24:13-56
 57            android:exported="true" />
 57-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:25:13-36
 58        <activity
 58-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:26:9-28:39
-59            android:name="com.example.vocabulary_book.VokanoteAddActivity"
-59-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:27:13-48
+59            android:name="com.example.vocabulary_book.activity.VokanoteAddActivity"
+59-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:27:13-57
 60            android:exported="true" />
 60-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:28:13-36
 61        <activity
 61-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:29:9-31:39
-62            android:name="com.example.vocabulary_book.VokaMainActivity"
-62-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:30:13-45
+62            android:name="com.example.vocabulary_book.activity.VokaMainActivity"
+62-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:30:13-54
 63            android:exported="true" />
 63-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:31:13-36
 64        <activity
 64-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:32:9-40:20
-65            android:name="com.example.vocabulary_book.MainActivity"
-65-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:33:13-41
+65            android:name="com.example.vocabulary_book.activity.MainActivity"
+65-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:33:13-50
 66            android:exported="true" >
 66-->C:\Users\kjptt\AndroidStudioProjects\vocabulary_book\app\src\main\AndroidManifest.xml:34:13-36
 67            <intent-filter>
@@ -176,49 +176,50 @@
 96-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:16:13-73
 97            android:theme="@style/DayNightPopup" />
 97-->[com.kakao.sdk:v2-friend:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\f6d5e47cddfed35e167a68f3f473bebc\transformed\v2-friend-2.16.0\AndroidManifest.xml:17:13-49
-98        <activity
-98-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:10:9-15:56
-99            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
-99-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:11:13-67
-100            android:configChanges="orientation|screenSize|keyboardHidden"
-100-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:12:13-74
-101            android:exported="false"
-101-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:13:13-37
-102            android:launchMode="singleTask"
-102-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:14:13-44
-103            android:theme="@style/TransparentCompat" />
-103-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:15:13-53
-104
-105        <provider
-105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-106            android:name="androidx.startup.InitializationProvider"
-106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-107            android:authorities="com.example.vocabulary_book.androidx-startup"
-107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-108            android:exported="false" >
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-109            <meta-data
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-111                android:value="androidx.startup" />
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-112            <meta-data
-112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-114                android:value="androidx.startup" />
-114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-115        </provider>
-116
-117        <service
-117-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
-118            android:name="androidx.room.MultiInstanceInvalidationService"
-118-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
-119            android:directBootAware="true"
-119-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
-120            android:exported="false" />
-120-->[androidx.room:room-runtime:2.4.3] C:\Users\kjptt\.gradle\caches\transforms-3\bcc4645dbc30ed71645da2919dab19dc\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
-121    </application>
-122
-123</manifest>
+98
+99        <service
+99-->[androidx.room:room-runtime:2.5.0] C:\Users\kjptt\.gradle\caches\transforms-3\1fa93f0f32df7ccf1edb96eef2fb87af\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+100            android:name="androidx.room.MultiInstanceInvalidationService"
+100-->[androidx.room:room-runtime:2.5.0] C:\Users\kjptt\.gradle\caches\transforms-3\1fa93f0f32df7ccf1edb96eef2fb87af\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+101            android:directBootAware="true"
+101-->[androidx.room:room-runtime:2.5.0] C:\Users\kjptt\.gradle\caches\transforms-3\1fa93f0f32df7ccf1edb96eef2fb87af\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+102            android:exported="false" />
+102-->[androidx.room:room-runtime:2.5.0] C:\Users\kjptt\.gradle\caches\transforms-3\1fa93f0f32df7ccf1edb96eef2fb87af\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+103
+104        <activity
+104-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:10:9-15:56
+105            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+105-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:11:13-67
+106            android:configChanges="orientation|screenSize|keyboardHidden"
+106-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:12:13-74
+107            android:exported="false"
+107-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:13:13-37
+108            android:launchMode="singleTask"
+108-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:14:13-44
+109            android:theme="@style/TransparentCompat" />
+109-->[com.kakao.sdk:v2-auth:2.16.0] C:\Users\kjptt\.gradle\caches\transforms-3\4b372a8453c624050b2275da60099ab3\transformed\v2-auth-2.16.0\AndroidManifest.xml:15:13-53
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.vocabulary_book.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kjptt\.gradle\caches\transforms-3\dc3a2527719af6ee81f6de9e4f2793d9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kjptt\.gradle\caches\transforms-3\624071abb68c3ac7394235b9969fced5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>

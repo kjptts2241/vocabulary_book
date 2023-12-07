@@ -1,90 +1,94 @@
 [
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\layout_word_add.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\layout\\word_add.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\drawable_border_layout.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\drawable\\border_layout.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/layout_word_add.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/layout/word_add.xml"
+        "merged": "com.example.vocabulary_book.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.example.vocabulary_book.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\layout_vokanote_add.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\layout\\vokanote_add.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/layout_vokanote_around.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/layout/vokanote_around.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/layout_activity_main.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/layout/activity_main.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\layout_vokanote_around.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\layout\\vokanote_around.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\layout_voka_main.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\layout\\voka_main.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.vocabulary_book.app-pngs-33:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/xml_backup_rules.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/layout_voka_main.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/layout/voka_main.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/drawable_border_layout.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/drawable/border_layout.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-pngs-39:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-37:/layout_vokanote_add.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-39:/layout/vokanote_add.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
     }
 ]

@@ -50,19 +50,19 @@
         android:theme="@style/Theme.vocabulary_book"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.vocabulary_book.WordAddActivity"
+            android:name="com.example.vocabulary_book.activity.WordAddActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.VokaAroundActivity"
+            android:name="com.example.vocabulary_book.activity.VokaAroundActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.VokanoteAddActivity"
+            android:name="com.example.vocabulary_book.activity.VokanoteAddActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.VokaMainActivity"
+            android:name="com.example.vocabulary_book.activity.VokaMainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.MainActivity"
+            android:name="com.example.vocabulary_book.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -95,6 +95,12 @@
         <activity
             android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
             android:theme="@style/DayNightPopup" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <activity
             android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
@@ -113,11 +119,6 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
     </application>
 
 </manifest>

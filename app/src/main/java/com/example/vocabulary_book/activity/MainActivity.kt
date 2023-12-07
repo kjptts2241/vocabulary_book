@@ -1,4 +1,4 @@
-package com.example.vocabulary_book
+package com.example.vocabulary_book.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -56,11 +56,12 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
 
                     // 유저 DB 확인
-                    val userEmailExists = AppDatabase.getInstance(this)?.userDao()?.isEmailExists(email)
+
+//                    val userEmailExists = AppDatabase.getInstance(this)?.userDao()?.isEmailExists(email)
                     // 유저가 DB에 확인되지 않는 경우
 //                    if (userEmailExists == 0) {
 //                        // DB에 유저 저장
-//                        val userData = UserData(1, email = email, nickname = nickname, profileImageUrl = profileImageUrl)
+//                          val userData = User("", "", "")
 //                        AppDatabase.getInstance(this)?.userDao()?.insert(userData)
 //
 //                    // 유저가 DB에 확인되는 경우
