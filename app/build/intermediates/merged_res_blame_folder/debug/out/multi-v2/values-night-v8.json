@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-36:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kjptt\\.gradle\\caches\\transforms-3\\f6d5e47cddfed35e167a68f3f473bebc\\transformed\\v2-friend-2.16.0\\res\\values-night-v8\\values-night-v8.xml",

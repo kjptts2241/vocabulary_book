@@ -14,6 +14,7 @@ id kakao_logout_button
 id language_text
 id language_text2
 id main_title_text
+id nickname_text
 id radioGroup
 id radio_button
 id radio_button2

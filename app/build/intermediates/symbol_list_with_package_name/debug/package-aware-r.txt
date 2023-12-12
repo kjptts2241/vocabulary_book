@@ -3430,6 +3430,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nickname_text
 id nickname_tv
 id noScroll
 id noState

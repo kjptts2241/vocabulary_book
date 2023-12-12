@@ -95,18 +95,17 @@
         <activity
             android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
             android:theme="@style/DayNightPopup" />
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
-
         <activity
             android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="false"
             android:launchMode="singleTask"
             android:theme="@style/TransparentCompat" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

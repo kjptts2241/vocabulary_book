@@ -40,6 +40,9 @@ public final class VokaMainBinding implements ViewBinding {
   public final TextView languageText2;
 
   @NonNull
+  public final TextView nicknameText;
+
+  @NonNull
   public final TextView titleText;
 
   @NonNull
@@ -57,9 +60,10 @@ public final class VokaMainBinding implements ViewBinding {
   private VokaMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout, @NonNull ImageView imageView2,
       @NonNull ImageView imageView3, @NonNull Button kakaoLogoutButton,
-      @NonNull TextView languageText, @NonNull TextView languageText2, @NonNull TextView titleText,
-      @NonNull TextView titleText2, @NonNull ConstraintLayout vokanote1,
-      @NonNull ConstraintLayout vokanote2, @NonNull Button vokanoteAddMoveButton) {
+      @NonNull TextView languageText, @NonNull TextView languageText2,
+      @NonNull TextView nicknameText, @NonNull TextView titleText, @NonNull TextView titleText2,
+      @NonNull ConstraintLayout vokanote1, @NonNull ConstraintLayout vokanote2,
+      @NonNull Button vokanoteAddMoveButton) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
     this.imageView2 = imageView2;
@@ -67,6 +71,7 @@ public final class VokaMainBinding implements ViewBinding {
     this.kakaoLogoutButton = kakaoLogoutButton;
     this.languageText = languageText;
     this.languageText2 = languageText2;
+    this.nicknameText = nicknameText;
     this.titleText = titleText;
     this.titleText2 = titleText2;
     this.vokanote1 = vokanote1;
@@ -137,6 +142,12 @@ public final class VokaMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nickname_text;
+      TextView nicknameText = ViewBindings.findChildViewById(rootView, id);
+      if (nicknameText == null) {
+        break missingId;
+      }
+
       id = R.id.title_text;
       TextView titleText = ViewBindings.findChildViewById(rootView, id);
       if (titleText == null) {
@@ -168,8 +179,8 @@ public final class VokaMainBinding implements ViewBinding {
       }
 
       return new VokaMainBinding((ConstraintLayout) rootView, constraintLayout, imageView2,
-          imageView3, kakaoLogoutButton, languageText, languageText2, titleText, titleText2,
-          vokanote1, vokanote2, vokanoteAddMoveButton);
+          imageView3, kakaoLogoutButton, languageText, languageText2, nicknameText, titleText,
+          titleText2, vokanote1, vokanote2, vokanoteAddMoveButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

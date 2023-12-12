@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-41:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.vocabulary_book.app-mergeDebugResources-36:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kjptt\\.gradle\\caches\\transforms-3\\b5ba732faec324c1f421e5180141a7a3\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",

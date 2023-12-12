@@ -23,17 +23,24 @@ class VokaMainActivity : AppCompatActivity() {
 
         val activityLauncher = openActivityResultLauncher()
 
+        // 사용자 정보 받아오기
+        var email = intent.getStringExtra("email")
+        var nickname = intent.getStringExtra("nickname")
+
+        // 사용자 닉네임 표시
+        binding.nicknameText.text = nickname + "님"
+
         // 카카오 로그아웃
         binding.kakaoLogoutButton.setOnClickListener() {
 
             UserApiClient.instance.logout { error ->
                 // 로그아웃 실패
                 if (error != null) {
-                    Toast.makeText(this, "로그아웃에 실패했어요 $error", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "${nickname}님 로그아웃에 실패했어요 $error", Toast.LENGTH_SHORT).show()
 
                 // 로그아웃 성공
                 } else {
-                    Toast.makeText(this, "안녕히가세요!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "${nickname}님 안녕히가세요!", Toast.LENGTH_SHORT).show()
                     val intent: Intent = Intent(this, MainActivity::class.java)
                     startActivity(intent.addFlags(FLAG_ACTIVITY_CLEAR_TOP))
                     finish()

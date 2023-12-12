@@ -25,6 +25,7 @@ class VokanoteAddActivity: AppCompatActivity() {
         binding.vokanoteAddCancelButton.setOnClickListener() {
             val intent: Intent = Intent(this, VokaMainActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

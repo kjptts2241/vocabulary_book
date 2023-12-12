@@ -25,6 +25,7 @@ class WordAddActivity:AppCompatActivity() {
         binding.wordAddCancelButton.setOnClickListener() {
             val intent: Intent = Intent(this, VokaAroundActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
