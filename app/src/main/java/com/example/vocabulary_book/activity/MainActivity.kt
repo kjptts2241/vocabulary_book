@@ -17,13 +17,19 @@ import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
+    private var appDb: AppDatabase? = null
+
+    private var email: String? = null
+    private var nickname: String? = null
+    private var imageUrl: String? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val appDb = AppDatabase.getDatabase(this)
+        appDb = AppDatabase.getDatabase(this)
 
         // kakao HashKey 확인
         val keyHash = Utility.getKeyHash(this)
@@ -39,9 +45,9 @@ class MainActivity : AppCompatActivity() {
                 UserApiClient.instance.me { user, error ->
                     val intent: Intent = Intent(this, FragmentMainActivity::class.java)
 
-                    var email = user?.kakaoAccount?.email.toString()
-                    var nickname = user?.kakaoAccount?.profile?.nickname
-                    var imageUrl = user?.kakaoAccount?.profile?.profileImageUrl.toString()
+                    email = user?.kakaoAccount?.email.toString()
+                    nickname = user?.kakaoAccount?.profile?.nickname
+                    imageUrl = user?.kakaoAccount?.profile?.profileImageUrl.toString()
 
 
                     Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
@@ -70,22 +76,22 @@ class MainActivity : AppCompatActivity() {
 
                 UserApiClient.instance.me { user, error ->
                     // 유저 정보 저장
-                    var email = user?.kakaoAccount?.email.toString()
-                    var nickname = user?.kakaoAccount?.profile?.nickname.toString()
-                    var imageUrl = user?.kakaoAccount?.profile?.profileImageUrl.toString()
+                    email = user?.kakaoAccount?.email.toString()
+                    nickname = user?.kakaoAccount?.profile?.nickname.toString()
+                    imageUrl = user?.kakaoAccount?.profile?.profileImageUrl.toString()
 
                     // 유저의 정보가 있다면
                     if (email != null && nickname != null) {
                         GlobalScope.launch {
                             // 유저가 DB에 있는지 확인 여부
-                            var userEmailExists = appDb.userDao().isEmailExists(email)
+                            val userEmailExists = appDb!!.userDao().isEmailExists(email!!)
 
                             // 유저가 DB에 확인되지 않는다면
                             if (userEmailExists == 0) {
                                 // 새로운 유저를 DB에 저장
-                                var userData = User(null, email, nickname, imageUrl)
+                                val userData = User(null, email!!, nickname!!, imageUrl!!)
                                 GlobalScope.launch(Dispatchers.IO) {
-                                    appDb.userDao().insert(userData)
+                                    appDb!!.userDao().insert(userData)
                                 }
                             }
                         }

@@ -18,6 +18,10 @@ interface UserDao {
     @Query("SELECT COUNT(*) FROM user_table WHERE email = :email")
     fun isEmailExists(email: String): Int
 
+    // 이메일 유저의 id 반환
+    @Query("SELECT id FROM user_table WHERE email = :email")
+    fun isEmailToUserId(email: String): Long
+
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insert(user: User)
 

@@ -81,6 +81,7 @@ class HomeFragment : Fragment() {
         // 단어장 추가 이동
         binding.vokanoteAddMoveButton.setOnClickListener() {
             val intent = Intent(context, VokanoteAddActivity::class.java)
+            intent.putExtra("email", email)
             activityLauncher.launch(intent)
         }
 
@@ -97,9 +98,9 @@ class HomeFragment : Fragment() {
         val resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
                 result: ActivityResult ->
             if (result.resultCode == Activity.RESULT_OK) {
-                Toast.makeText(context, "단어장 추가 성공", Toast.LENGTH_SHORT).show()
-                val data1 = result.data?.getStringExtra("data1")
-                Log.d("log", "$data1")
+                val title = result.data?.getStringExtra("title")
+                Log.d("log", "$title")
+                Toast.makeText(context, "${title} 단어장 추가 성공", Toast.LENGTH_SHORT).show()
             }
             else {
                 Toast.makeText(context, "단어장 추가 실패", Toast.LENGTH_SHORT).show()

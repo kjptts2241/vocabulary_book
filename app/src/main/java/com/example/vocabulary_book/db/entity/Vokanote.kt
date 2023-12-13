@@ -19,8 +19,8 @@ data class Vokanote (
     @ColumnInfo(name = "id")
     var id : Int?, // Primary Key
 
-    @ColumnInfo(name = "userForeignKey")
-    var userId: Int = 0, // User 외래키
+    @ColumnInfo(name = "userId")
+    var userId: Int, // User 외래키
 
     @ColumnInfo(name = "language")
     var language : String, // 언어
