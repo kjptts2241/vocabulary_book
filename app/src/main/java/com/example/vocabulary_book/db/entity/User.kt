@@ -9,14 +9,14 @@ data class User (
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    var id : Int?, // PrimaryKey
+    val id : Int?, // Primary Key
 
     @ColumnInfo(name = "email")
-    var email : String, // 이메일
+    val email : String, // 이메일
 
     @ColumnInfo(name = "nickname")
-    var nickname : String, // 닉네임
+    val nickname : String, // 닉네임
 
     @ColumnInfo(name = "imageUrl")
-    var imageUrl : String // 프로필 이미지 URL
+    val imageUrl : String, // 프로필 이미지 URL
 )

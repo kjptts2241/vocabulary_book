@@ -59,7 +59,7 @@
             android:name="com.example.vocabulary_book.activity.VokanoteAddActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vocabulary_book.activity.VokaMainActivity"
+            android:name="com.example.vocabulary_book.activity.FragmentMainActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vocabulary_book.activity.MainActivity"

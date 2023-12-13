@@ -2971,6 +2971,7 @@ drawable design_snackbar_background
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_info
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2981,6 +2982,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_note
+drawable ic_person
 drawable ic_search_black_24
 drawable kakao_sdk_bg_cursor
 drawable kakao_sdk_bg_round_rect_gray
@@ -3182,6 +3185,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3210,6 +3214,7 @@ id check_box
 id check_image
 id checkbox
 id checked
+id china_button
 id chronometer
 id circle_center
 id clear_text
@@ -3274,6 +3279,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email_text
 id embed
 id empty_chat_view
 id empty_friend_image
@@ -3283,6 +3289,7 @@ id empty_search_result_text
 id empty_view
 id end
 id endToStart
+id english_button
 id enterAlways
 id enterAlwaysCollapsed
 id error_layout
@@ -3307,6 +3314,7 @@ id floating
 id forever
 id fragment_container
 id fragment_container_view_tag
+id frame_layout
 id friend_tab
 id friends_list
 id frost
@@ -3333,6 +3341,7 @@ id ignoreRequest
 id image
 id imageView2
 id imageView3
+id image_url_text
 id immediateStop
 id included
 id indeterminate
@@ -3341,11 +3350,13 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id japan_button
 id jumpToEnd
 id jumpToStart
 id kakao_login_button
 id kakao_logout_button
 id labeled
+id language_group
 id language_text
 id language_text2
 id layout
@@ -3467,14 +3478,11 @@ id placeholder_margin_view
 id position
 id postLayout
 id pressed
+id profile
 id profile_iv
 id progress_circular
 id progress_horizontal
 id radio
-id radioGroup
-id radio_button
-id radio_button2
-id radio_button3
 id ratio
 id rectangles
 id refresh_button
@@ -3587,6 +3595,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3641,6 +3654,7 @@ id vokanote_add_cancel_button
 id vokanote_add_move_button
 id vokanote_language_text
 id vokanote_title
+id vokanote_title_text
 id west
 id withText
 id with_icon
@@ -3791,6 +3805,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_info
+layout fragment_main
+layout fragment_profile
 layout kakao_sdk_activity_picker
 layout kakao_sdk_activity_popup_picker
 layout kakao_sdk_category_divider
@@ -3872,10 +3890,10 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-layout voka_main
 layout vokanote_add
 layout vokanote_around
 layout word_add
+menu botton_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3943,6 +3961,7 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string favorite
 string friend
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

@@ -37,17 +37,19 @@ class MainActivity : AppCompatActivity() {
             // 로그인 기록이 있다면 자동 로그인
             } else if (tokenInfo != null) {
                 UserApiClient.instance.me { user, error ->
-                    val intent: Intent = Intent(this, VokaMainActivity::class.java)
+                    val intent: Intent = Intent(this, FragmentMainActivity::class.java)
 
                     var email = user?.kakaoAccount?.email.toString()
                     var nickname = user?.kakaoAccount?.profile?.nickname
+                    var imageUrl = user?.kakaoAccount?.profile?.profileImageUrl.toString()
 
 
                     Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
 
-                    // 유저 정보를 VokaMainActivity에 전달
+                    // 유저 정보를 FragmentMainActivity에 전달
                     intent.putExtra("email", email)
                     intent.putExtra("nickname", nickname)
+                    intent.putExtra("imageUrl", imageUrl)
 
                     startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
                     finish()
@@ -64,7 +66,7 @@ class MainActivity : AppCompatActivity() {
 
             // 로그인 성공
             } else if (token != null){
-                val intent: Intent = Intent(this, VokaMainActivity::class.java)
+                val intent: Intent = Intent(this, FragmentMainActivity::class.java)
 
                 UserApiClient.instance.me { user, error ->
                     // 유저 정보 저장
@@ -95,9 +97,10 @@ class MainActivity : AppCompatActivity() {
 
                     Toast.makeText(this, "${nickname}님 어서오세요!", Toast.LENGTH_SHORT).show()
 
-                    // 유저 정보를 VokaMainActivity에 전달
+                    // 유저 정보를 FragmentMainActivity에 전달
                     intent.putExtra("email", email)
                     intent.putExtra("nickname", nickname)
+                    intent.putExtra("imageUrl", imageUrl)
 
                     startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
                     finish()

@@ -3,22 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".activity.VokanoteAddActivity">
 
     <TextView
         android:id="@+id/vokanote_language_text"
-        android:layout_width="120dp"
-        android:layout_height="39dp"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="56dp"
-        android:text="공부언어"
-        android:textSize="23sp"
         android:gravity="center_vertical"
+        android:text="공부 언어"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/language_group"
         android:layout_width="291dp"
         android:layout_height="152dp"
         android:layout_marginStart="56dp"
@@ -27,38 +30,55 @@
         app:layout_constraintTop_toBottomOf="@+id/vokanote_language_text">
 
         <RadioButton
-            android:id="@+id/radio_button"
+            android:id="@+id/english_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:text="English" />
 
         <RadioButton
-            android:id="@+id/radio_button2"
+            android:id="@+id/japan_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:text="日本語" />
 
         <RadioButton
-            android:id="@+id/radio_button3"
+            android:id="@+id/china_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:text="中国語" />
 
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/vokanote_title_text"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center_vertical"
+        android:text="단어장 제목"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/language_group" />
 
     <EditText
         android:id="@+id/vokanote_title"
         android:layout_width="292dp"
         android:layout_height="58dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="단어장 제목"
-        android:textSize="28sp"
+        android:text="제목를 입력해주세요"
         android:textColor="#808080"
+        android:textSize="23sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/vokanote_title_text" />
 
     <Button
         android:id="@+id/vokanote_add_button"

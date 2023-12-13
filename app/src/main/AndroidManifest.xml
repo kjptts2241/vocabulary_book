@@ -27,7 +27,7 @@
             android:name=".activity.VokanoteAddActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.VokaMainActivity"
+            android:name=".activity.FragmentMainActivity"
             android:exported="true" />
         <activity
             android:name=".activity.MainActivity"

@@ -2970,6 +2970,7 @@ int drawable design_snackbar_background 0x7f080087
 int drawable ic_arrow_back_black_24 0x7f080088
 int drawable ic_clear_black_24 0x7f080089
 int drawable ic_clock_black_24dp 0x7f08008a
+int drawable ic_info 0x7f080100
 int drawable ic_keyboard_black_24dp 0x7f08008b
 int drawable ic_launcher_background 0x7f08008c
 int drawable ic_launcher_foreground 0x7f08008d
@@ -2980,6 +2981,8 @@ int drawable ic_mtrl_checked_circle 0x7f080091
 int drawable ic_mtrl_chip_checked_black 0x7f080092
 int drawable ic_mtrl_chip_checked_circle 0x7f080093
 int drawable ic_mtrl_chip_close_circle 0x7f080094
+int drawable ic_note 0x7f080102
+int drawable ic_person 0x7f080101
 int drawable ic_search_black_24 0x7f080095
 int drawable kakao_sdk_bg_cursor 0x7f080096
 int drawable kakao_sdk_bg_round_rect_gray 0x7f080097
@@ -3181,6 +3184,7 @@ int id beginning 0x7f09005b
 int id bestChoice 0x7f09005c
 int id blocking 0x7f09005d
 int id bottom 0x7f09005e
+int id bottomNavigationView 0x7f090243
 int id bounce 0x7f09005f
 int id bounceBoth 0x7f090060
 int id bounceEnd 0x7f090061
@@ -3209,6 +3213,7 @@ int id check_box 0x7f090077
 int id check_image 0x7f090078
 int id checkbox 0x7f090079
 int id checked 0x7f09007a
+int id china_button 0x7f09024c
 int id chronometer 0x7f09007b
 int id circle_center 0x7f09007c
 int id clear_text 0x7f09007d
@@ -3273,6 +3278,7 @@ int id easeOut 0x7f0900b7
 int id east 0x7f0900b8
 int id edit_query 0x7f0900b9
 int id elastic 0x7f0900ba
+int id email_text 0x7f090245
 int id embed 0x7f0900bb
 int id empty_chat_view 0x7f0900bc
 int id empty_friend_image 0x7f0900bd
@@ -3282,6 +3288,7 @@ int id empty_search_result_text 0x7f0900c0
 int id empty_view 0x7f0900c1
 int id end 0x7f0900c2
 int id endToStart 0x7f0900c3
+int id english_button 0x7f09024d
 int id enterAlways 0x7f0900c4
 int id enterAlwaysCollapsed 0x7f0900c5
 int id error_layout 0x7f0900c6
@@ -3306,6 +3313,7 @@ int id floating 0x7f0900d8
 int id forever 0x7f0900d9
 int id fragment_container 0x7f0900da
 int id fragment_container_view_tag 0x7f0900db
+int id frame_layout 0x7f090244
 int id friend_tab 0x7f0900dc
 int id friends_list 0x7f0900dd
 int id frost 0x7f0900de
@@ -3332,6 +3340,7 @@ int id ignoreRequest 0x7f0900f2
 int id image 0x7f0900f3
 int id imageView2 0x7f0900f4
 int id imageView3 0x7f0900f5
+int id image_url_text 0x7f090246
 int id immediateStop 0x7f0900f6
 int id included 0x7f0900f7
 int id indeterminate 0x7f0900f8
@@ -3340,11 +3349,13 @@ int id invisible 0x7f0900fa
 int id inward 0x7f0900fb
 int id italic 0x7f0900fc
 int id item_touch_helper_previous_elevation 0x7f0900fd
+int id japan_button 0x7f09024e
 int id jumpToEnd 0x7f0900fe
 int id jumpToStart 0x7f0900ff
 int id kakao_login_button 0x7f090100
 int id kakao_logout_button 0x7f090101
 int id labeled 0x7f090102
+int id language_group 0x7f09024f
 int id language_text 0x7f090103
 int id language_text2 0x7f090104
 int id layout 0x7f090105
@@ -3466,14 +3477,11 @@ int id placeholder_margin_view 0x7f090178
 int id position 0x7f090179
 int id postLayout 0x7f09017a
 int id pressed 0x7f09017b
+int id profile 0x7f090242
 int id profile_iv 0x7f09017c
 int id progress_circular 0x7f09017d
 int id progress_horizontal 0x7f09017e
 int id radio 0x7f09017f
-int id radioGroup 0x7f090180
-int id radio_button 0x7f090181
-int id radio_button2 0x7f090182
-int id radio_button3 0x7f090183
 int id ratio 0x7f090184
 int id rectangles 0x7f090185
 int id refresh_button 0x7f090186
@@ -3586,6 +3594,11 @@ int id textSpacerNoButtons 0x7f0901f0
 int id textSpacerNoTitle 0x7f0901f1
 int id textStart 0x7f0901f2
 int id textTop 0x7f0901f3
+int id textView 0x7f090247
+int id textView2 0x7f090248
+int id textView3 0x7f090249
+int id textView8 0x7f09024a
+int id textView9 0x7f09024b
 int id text_input_end_icon 0x7f0901f4
 int id text_input_error_icon 0x7f0901f5
 int id text_input_start_icon 0x7f0901f6
@@ -3640,6 +3653,7 @@ int id vokanote_add_cancel_button 0x7f090226
 int id vokanote_add_move_button 0x7f090227
 int id vokanote_language_text 0x7f090228
 int id vokanote_title 0x7f090229
+int id vokanote_title_text 0x7f090250
 int id west 0x7f09022a
 int id withText 0x7f09022b
 int id with_icon 0x7f09022c
@@ -3790,6 +3804,10 @@ int layout design_navigation_menu 0x7f0c002c
 int layout design_navigation_menu_item 0x7f0c002d
 int layout design_text_input_end_icon 0x7f0c002e
 int layout design_text_input_start_icon 0x7f0c002f
+int layout fragment_home 0x7f0c0085
+int layout fragment_info 0x7f0c0088
+int layout fragment_main 0x7f0c0086
+int layout fragment_profile 0x7f0c0089
 int layout kakao_sdk_activity_picker 0x7f0c0030
 int layout kakao_sdk_activity_popup_picker 0x7f0c0031
 int layout kakao_sdk_category_divider 0x7f0c0032
@@ -3871,10 +3889,10 @@ int layout select_dialog_item_material 0x7f0c007d
 int layout select_dialog_multichoice_material 0x7f0c007e
 int layout select_dialog_singlechoice_material 0x7f0c007f
 int layout support_simple_spinner_dropdown_item 0x7f0c0080
-int layout voka_main 0x7f0c0081
 int layout vokanote_add 0x7f0c0082
 int layout vokanote_around 0x7f0c0083
 int layout word_add 0x7f0c0084
+int menu botton_nav 0x7f150000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
@@ -3942,6 +3960,7 @@ int string fallback_menu_item_open_in_browser 0x7f11003b
 int string fallback_menu_item_share_link 0x7f11003c
 int string favorite 0x7f11003d
 int string friend 0x7f11003e
+int string hello_blank_fragment 0x7f1100c1
 int string hide_bottom_view_on_scroll_behavior 0x7f11003f
 int string icon_content_description 0x7f110040
 int string item_view_role_description 0x7f110041
