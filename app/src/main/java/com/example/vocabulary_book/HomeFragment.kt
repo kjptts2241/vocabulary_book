@@ -16,6 +16,7 @@ import com.example.vocabulary_book.activity.MainActivity
 import com.example.vocabulary_book.activity.VokaAroundActivity
 import com.example.vocabulary_book.activity.VokanoteAddActivity
 import com.example.vocabulary_book.databinding.FragmentHomeBinding
+import com.example.vocabulary_book.db.AppDatabase
 import com.kakao.sdk.user.UserApiClient
 
 // TODO: Rename parameter arguments, choose names that match
@@ -50,6 +51,8 @@ class HomeFragment : Fragment() {
 
         val binding = FragmentHomeBinding.inflate(inflater, container, false)
 
+        val appDb = context?.let { AppDatabase.getDatabase(it) }
+
         val activityLauncher = openActivityResultLauncher()
 
         // 카카오 로그아웃
@@ -78,11 +81,57 @@ class HomeFragment : Fragment() {
             }
         }
 
+        // 단어장 횟수
+        val vokanoteCount = appDb?.vokanoteDao()?.getVokanoteCount()
+
+        val vokanoteList = appDb?.vokanoteDao()?.getVokanoteAll()
+        if (vokanoteList != null) {
+            when(vokanoteCount) {
+
+                1 -> {
+                    binding.vokanote1.visibility = View.VISIBLE
+                    binding.languageText.text = vokanoteList[0].language
+                    binding.titleText.text = vokanoteList[0].title
+                }
+                2 -> {
+                    binding.vokanote1.visibility = View.VISIBLE
+                    binding.languageText.text = vokanoteList[0].language
+                    binding.titleText.text = vokanoteList[0].title
+
+                    binding.vokanote2.visibility = View.VISIBLE
+                    binding.languageText2.text = vokanoteList[1].language
+                    binding.titleText2.text = vokanoteList[1].title
+                }
+                3 -> {
+                    binding.vokanote1.visibility = View.VISIBLE
+                    binding.languageText.text = vokanoteList[0].language
+                    binding.titleText.text = vokanoteList[0].title
+
+                    binding.vokanote2.visibility = View.VISIBLE
+                    binding.languageText2.text = vokanoteList[1].language
+                    binding.titleText2.text = vokanoteList[1].title
+
+                    binding.vokanote3.visibility = View.VISIBLE
+                    binding.languageText3.text = vokanoteList[2].language
+                    binding.titleText3.text = vokanoteList[2].title
+                }
+
+            }
+        }
+
+
         // 단어장 추가 이동
         binding.vokanoteAddMoveButton.setOnClickListener() {
             val intent = Intent(context, VokanoteAddActivity::class.java)
-            intent.putExtra("email", email)
-            activityLauncher.launch(intent)
+
+            // 단어장 제한 설정
+            if (vokanoteCount != null) {
+                if (vokanoteCount < 3) {
+                    activityLauncher.launch(intent)
+                } else {
+                    Toast.makeText(context, "단어장은 3개까지 만들 수 있습니다", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
 
         // 단어장 이동

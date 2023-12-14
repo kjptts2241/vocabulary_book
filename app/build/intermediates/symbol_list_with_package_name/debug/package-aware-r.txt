@@ -3341,6 +3341,7 @@ id ignoreRequest
 id image
 id imageView2
 id imageView3
+id imageView4
 id image_url_text
 id immediateStop
 id included
@@ -3359,6 +3360,7 @@ id labeled
 id language_group
 id language_text
 id language_text2
+id language_text3
 id layout
 id left
 id leftToRight
@@ -3616,6 +3618,7 @@ id title_layout
 id title_template
 id title_text
 id title_text2
+id title_text3
 id title_tv
 id toast_iv
 id toast_tv
@@ -3649,6 +3652,7 @@ id voka_back_button
 id voka_delete_button
 id vokanote1
 id vokanote2
+id vokanote3
 id vokanote_add_button
 id vokanote_add_cancel_button
 id vokanote_add_move_button

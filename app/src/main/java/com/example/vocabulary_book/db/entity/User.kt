@@ -7,10 +7,6 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "user_table")
 data class User (
 
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
-    val id : Int?, // Primary Key
-
     @ColumnInfo(name = "email")
     val email : String, // 이메일
 
@@ -19,4 +15,8 @@ data class User (
 
     @ColumnInfo(name = "imageUrl")
     val imageUrl : String, // 프로필 이미지 URL
-)
+) {
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "userId")
+    var userId : Int = 0 // Primary Key
+}

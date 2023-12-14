@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.vocabulary_book.databinding.ActivityMainBinding
 import com.example.vocabulary_book.db.AppDatabase
 import com.example.vocabulary_book.db.entity.User
+import com.example.vocabulary_book.db.entity.Vokanote
 import com.kakao.sdk.auth.model.OAuthToken
 import com.kakao.sdk.common.util.Utility
 import com.kakao.sdk.user.UserApiClient
@@ -16,8 +17,6 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
-
-    private var appDb: AppDatabase? = null
 
     private var email: String? = null
     private var nickname: String? = null
@@ -29,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        appDb = AppDatabase.getDatabase(this)
+        val appDb = AppDatabase.getDatabase(this)
 
         // kakao HashKey 확인
         val keyHash = Utility.getKeyHash(this)
@@ -84,14 +83,19 @@ class MainActivity : AppCompatActivity() {
                     if (email != null && nickname != null) {
                         GlobalScope.launch {
                             // 유저가 DB에 있는지 확인 여부
-                            val userEmailExists = appDb!!.userDao().isEmailExists(email!!)
+                            val userEmailExists = appDb.userDao().isEmailExists(email!!)
 
                             // 유저가 DB에 확인되지 않는다면
                             if (userEmailExists == 0) {
+
+                                // 초기 단어장 생성
+                                val vokanoteData = Vokanote("English", "영어 단어장")
                                 // 새로운 유저를 DB에 저장
-                                val userData = User(null, email!!, nickname!!, imageUrl!!)
+                                val userData = User(email!!, nickname!!, imageUrl!!)
+
                                 GlobalScope.launch(Dispatchers.IO) {
-                                    appDb!!.userDao().insert(userData)
+                                    appDb.userDao().insertUser(userData)
+                                    appDb.vokanoteDao().insertVokanote(vokanoteData)
                                 }
                             }
                         }

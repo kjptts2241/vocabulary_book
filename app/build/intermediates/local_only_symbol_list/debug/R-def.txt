@@ -18,6 +18,7 @@ id frame_layout
 id home
 id imageView2
 id imageView3
+id imageView4
 id image_url_text
 id info
 id japan_button
@@ -26,6 +27,7 @@ id kakao_logout_button
 id language_group
 id language_text
 id language_text2
+id language_text3
 id main_title_text
 id nickname_text
 id profile
@@ -36,10 +38,12 @@ id textView8
 id textView9
 id title_text
 id title_text2
+id title_text3
 id voka_back_button
 id voka_delete_button
 id vokanote1
 id vokanote2
+id vokanote3
 id vokanote_add_button
 id vokanote_add_cancel_button
 id vokanote_add_move_button

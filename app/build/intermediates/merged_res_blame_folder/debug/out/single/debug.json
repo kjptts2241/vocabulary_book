@@ -40,10 +40,6 @@
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vocabulary_book.app-merged_res-38:/layout_word_add.xml.flat",
-        "source": "com.example.vocabulary_book.app-main-40:/layout/word_add.xml"
-    },
-    {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -68,16 +64,20 @@
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\fragment_home.xml"
     },
     {
+        "merged": "com.example.vocabulary_book.app-merged_res-38:/layout_fragment_home.xml.flat",
+        "source": "com.example.vocabulary_book.app-main-40:/layout/fragment_home.xml"
+    },
+    {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_word_add.xml.flat",
-        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\word_add.xml"
-    },
-    {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_word_add.xml.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\word_add.xml"
     },
     {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -92,14 +92,6 @@
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\drawable\\ic_info.xml"
     },
     {
-        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_fragment_home_ex.xml.flat",
-        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\fragment_home_ex.xml"
-    },
-    {
-        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\drawable\\ic_home.xml"
-    },
-    {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\fragment_profile.xml"
     },
@@ -108,16 +100,12 @@
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_voka_main.xml.flat",
-        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\layout\\voka_main.xml"
+        "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\kjptt\\.gradle\\daemon\\8.0\\com.example.vocabulary_book.app-merged_res-38:\\layout_vokanote_around.xml.flat",

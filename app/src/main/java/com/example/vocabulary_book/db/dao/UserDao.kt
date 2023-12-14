@@ -12,18 +12,14 @@ import com.example.vocabulary_book.db.entity.User
 interface UserDao {
 
     @Query("SELECT * FROM user_table")
-    fun getAll() : List<User>
+    fun getUserAll(): List<User>
 
     // 이메일 존재 여부 확인
     @Query("SELECT COUNT(*) FROM user_table WHERE email = :email")
     fun isEmailExists(email: String): Int
 
-    // 이메일 유저의 id 반환
-    @Query("SELECT id FROM user_table WHERE email = :email")
-    fun isEmailToUserId(email: String): Long
-
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(user: User)
+    fun insertUser(user: User)
 
     @Update
     fun update(user: User)

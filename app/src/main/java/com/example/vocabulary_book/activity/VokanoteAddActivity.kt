@@ -3,14 +3,17 @@ package com.example.vocabulary_book.activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.vocabulary_book.R
 import com.example.vocabulary_book.databinding.VokanoteAddBinding
 import com.example.vocabulary_book.db.AppDatabase
+import com.example.vocabulary_book.db.entity.Vokanote
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class VokanoteAddActivity: AppCompatActivity() {
-
-    private var appDb: AppDatabase? = null
 
     private var email: String? = null
     
@@ -24,11 +27,6 @@ class VokanoteAddActivity: AppCompatActivity() {
 
         var language = ""
         var title = ""
-
-        // 이메일로 유저의 id 가져오기
-//        email = intent.getStringExtra("email")
-//        var userId = appDb!!.userDao().isEmailToUserId(email!!)
-//        Log.d("userId", userId.toString())
 
         // 언어 선택 저장
         binding.languageGroup.setOnCheckedChangeListener{ group, checkedId ->
@@ -46,24 +44,23 @@ class VokanoteAddActivity: AppCompatActivity() {
             // 제목 저장
             title = binding.vokanoteTitle.text.toString()
 
-            // 언어와 제목이 비지 않았다면 단어장 저장
-//            if (title != null && language != null) {
-//
-//                var vokanoteData = Vokanote(null, userId, language, title)
-//                GlobalScope.launch(Dispatchers.IO) {
-//                    appDb.vokanoteDao().insert(vokanoteData)
-//                }
-//            }
+            // 값을 정상적으로 입력했거나 단어장 횟수가 5개 밑이라면 단어장 저장
+            if (binding.vokanoteTitle.text.isNotEmpty() && language.isNotEmpty()) {
 
-//
-//                intent.putExtra("title", title)
-//            }
-//            else {
-//                Toast.makeText(this, "단어장 추가 실패", Toast.LENGTH_SHORT).show()
-//            }
+                // 단어장 저장
+                val vokanoteData = Vokanote(language, title)
+                GlobalScope.launch(Dispatchers.IO) {
+                    appDb.vokanoteDao().insertVokanote(vokanoteData)
+                }
 
-            setResult(RESULT_OK, intent)
-            finish()
+                intent.putExtra("title", title)
+
+                setResult(RESULT_OK, intent)
+                finish()
+            }
+            else {
+                Toast.makeText(this, "값을 입력해주세요!!", Toast.LENGTH_SHORT).show()
+            }
         }
 
         // 단어장 추가 취소
